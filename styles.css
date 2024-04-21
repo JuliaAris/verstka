@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    flex: 0 0 content;
+}
+
+main {
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    background-color: antiquewhite;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    min-height: 100vh;
+ }
+
+header, footer, main, aside, .inf {
+    border: 1px solid red;
+}
+
+aside {
+    display: flex;
+    width: 20vh;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+}
+
+h1 {
+    display:flex;
+    justify-content: center;
+}
+
+.col-1 {
+    flex: 1;
+    height: 100px;
+}
+
+.sec-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 20vh;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    background-color: lightslategray;
+}
+
+.more-1 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding: 60px;
+}
+
+.more-2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: black solid 1px;
+    margin: 20px;
+    background-color: lightyellow;
+}
+
+.inf {
+    display: flex;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: lightyellow;
+}
+
+h1 {
+    background-color: lightslategray;
+}
+
+.grey {
+    background-color: lightgrey;
+    padding: 30px;
+    
+}
+
